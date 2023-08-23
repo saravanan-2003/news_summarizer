@@ -7,7 +7,7 @@ import io
 import nltk
 nltk.download('punkt')
 
-st.set_page_config(page_title='SummarizeMe: Your News Insights Bot 📰🤖', page_icon='./Meta/newspaper.ico')
+st.set_page_config(page_title='SummarizeMe: Your News Insights Bot 📰🤖', page_icon='./Meta/newspic.ico')
 
 
 def fetch_news_search_topic(topic):
@@ -77,7 +77,7 @@ def display_news(list_of_news, news_quantity):
 
 def run():
     st.title("HuntsBrief: News, Simplified")
-    image = Image.open('./Meta/newspaper.png')
+    image = Image.open('./Meta/newspic.png')
 
     col1, col2, col3 = st.columns([3, 5, 3])
 
