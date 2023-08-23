@@ -1,0 +1,11 @@
+
+[theme]
+base="dark"
+primaryColor="#ff9900"
+backgroundColor="#0d0d0d"
+secondaryBackgroundColor="#1a1a1a"
+textColor="#ffffff"
+[theme.page]
+backgroundColor = "#0a3d62"  # Blue background
+borderColor = "#ffffff"  # New border color: Turquoise
+borderWidth = 20  # Increase border width
